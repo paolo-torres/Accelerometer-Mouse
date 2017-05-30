@@ -11,16 +11,16 @@ int valuePush = HIGH;
 int valueX = 0;
 int valueY = 0;
 
-int currentX =0;
-int currentY =0;
-int nextX =0;
-int nextY =0;
+int currentX = 0;
+int currentY = 0;
+int nextX = 0;
+int nextY = 0;
 
 void setup() {
   accelerometer.init();
   pinMode(pushPin, INPUT);
   Serial.begin(9600);
-  digitalWrite(pushPin,HIGH);
+  digitalWrite(pushPin, HIGH);
 }
 
 void loop() {  
